@@ -1,0 +1,21 @@
+- download ollama
+
+- turn ollama and open a terminal
+
+- ollama run "MODEL_NAME"   //mistral
+
+- use a conda virtual environment
+
+- virtual environment for mac
+creation - "conda create -n 'ENVIRONMENT_NAME' python=3.11"
+activation - "source activate 'environment name'"
+
+
+- install the requirements -  "pip install -r requirements.txt"
+
+- pull mistral model in ollama "ollama pull mistral"
+
+- ingest the files(kind of preprocessing) - "python3 ingest.py"
+
+- run by using python/python3 privateGPT.py
+
